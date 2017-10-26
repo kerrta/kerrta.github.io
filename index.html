@@ -19,8 +19,12 @@
       {
 
         background-color: #FFF6F6;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
 
       }
+
 
       h2
       {
@@ -53,7 +57,7 @@
       a
       {
 
-        color: black;
+        color: #fff;
         text-decoration: none;
 
       }
@@ -76,7 +80,6 @@
       #row-2
       {
 
-        margin-top: 40px;
         margin-bottom: 20px;
 
       }
@@ -104,6 +107,8 @@
         height: 300px;
         width: 275px;
         margin-top: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
 
       }
 
@@ -157,6 +162,7 @@
       {
 
         font-family: "Courier New", Courier, monospace;
+        color: #fff;
         text-transform: uppercase;
         letter-spacing: 2px;
 
@@ -166,7 +172,108 @@
       {
 
         box-shadow: 0 4.375px 17.5px 0 rgba(46,61,73,0.12);
+        background-color: #303338;
         list-style-type: none;
+        color: #fff;
+
+      }
+
+      .pic
+      {
+
+        background-image: url("head.png");
+        margin: 0;
+        padding: 0;
+
+      }
+
+      .rounded-circle
+      {
+
+        background-color: #fff;
+        margin-bottom: 20px;
+
+      }
+
+      .info-back
+      {
+
+        background-color: #d66060;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      .project-back
+      {
+
+        background-color: #61666d;
+        height: 374.67px;
+
+      }
+
+      .project
+      {
+
+        margin-top: 20px;
+        background-color: #303338;
+        color: #fff;
+
+      }
+
+      .custom-nav
+      {
+
+        margin-bottom: 10px;
+
+      }
+
+      .wrap-col-left
+      {
+
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4.375px 17.5px 0 rgba(46,61,73,0.12);
+        padding: 20px;
+        background-color: #FBEEEC;
+
+      }
+
+      .wrap-col-right
+      {
+
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0 4.375px 17.5px 0 rgba(46,61,73,0.12);
+        padding: 20px;
+        background-color: #FBEEEC;
+
+      }
+
+      .wrap-col-center
+      {
+
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4.375px 17.5px 0 rgba(46,61,73,0.12);
+        padding: 20px;
+        background-color: #FBEEEC;
+
+      }
+
+      .info-bottom
+      {
+
+        padding-bottom: 20px;
+
+      }
+
+      #project-hr
+      {
+
+        background-color: black;
 
       }
 
@@ -204,6 +311,8 @@
   <body>
     
     <div class = "container-fluid" id = "transparent-layer-1">
+
+      <div class="pic">
 
       <div class = "row">
 
@@ -247,101 +356,125 @@
 
       </div>
 
-      <div class = "row" id = "row-2">
+      </div>
 
-        <div class = "col-md-1"></div>
+      <div class="info-back">
 
-        <div class = "col-md-10 " id = "bio">
+        <div class = "row" id = "row-2">
 
-          <h2 class = "text-center">Education</h2>
+          <div class = "col-md-1"></div>
 
-          <hr>
+          <div class = "col-md-10 " id = "bio">
 
-          <p class = "text-center">
+            <h2 class = "text-center">Education</h2>
 
-            Currently pursuing a B.S. in Computer Science from the University of Central Florida
+            <hr>
 
-          </p>
+            <p class = "text-center">
+
+              Currently pursuing a B.S. in Computer Science from the University of Central Florida
+
+            </p>
+
+          </div>
+
+          
 
         </div>
 
-        <div class = "col-md-1"></div>
+        
 
-      </div>
+          
 
-      <div class = "fixed-background">
+            <div class = "row info-bottom">
 
-        <div class = "transparent-layer-2">
+              <div class = "col-md-4 text-center">
 
-          <div class = "row" id = "row-2">
+                <div class="wrap-col-left">
 
-            <div class = "col-md-4 text-center custom-col">
+                <h5>Involvement</h5>
 
-              <h5>Involvement</h5>
+                <hr>
 
-              <hr>
+                <ul>
 
-              <ul>
+                  <li class = "text-center">&nbsp;</em>Association of Computing Machinery</li>
 
-                <li class = "text-center">&nbsp;</em>Association of Computing Machinery</li>
+                  <li class = "text-left">&nbsp;</li>
 
-                <li class = "text-left">&nbsp;</li>
+                  <li class = "text-left">&nbsp;</li>
 
-                <li class = "text-left">&nbsp;</li>
+                </ul>
 
-              </ul>
+                </div>
 
-            </div>
+              </div>
 
-            <div class = "col-md-4 custom-col">
 
-              <h5>Interests</h5>
+              <div class = "col-md-4">
 
-              <hr>
+                <div class="wrap-col-center">
 
-              <ul>
+                <h5>Interests</h5>
 
-                <li class = "text-left"><em class = "fa fa-arrow-circle-right"></em>&nbsp;AI</li>
+                <hr>
 
-                <li class = "text-left"><em class = "fa fa-arrow-circle-right"></em>&nbsp;Web Development</li>
+                <ul>
 
-                <li class = "text-left last-item"><em class = "fa fa-arrow-circle-right"></em>&nbsp;Exercise</li>
+                  <li class = "text-left"><em class = "fa fa-arrow-circle-right"></em>&nbsp;AI</li>
 
-              </ul>
-              
-            </div>
+                  <li class = "text-left"><em class = "fa fa-arrow-circle-right"></em>&nbsp;Web Development</li>
 
-            <div class = "col-md-4 custom-col">
+                  <li class = "text-left last-item"><em class = "fa fa-arrow-circle-right"></em>&nbsp;Exercise</li>
 
-              <h5>Skills</h5>
+                </ul>
 
-              <hr>
+                </div>
+                
+              </div>
 
-              <ul>
 
-                <li class = ""><em class = "fa fa-arrow-circle-right"></em>&nbsp;C</li>
+              <div class = "col-md-4">
 
-                <li class = ""><em class = "fa fa-arrow-circle-right"></em>&nbsp;HTML 5</li>
+                <div class="wrap-col-right">
 
-                <li class = "last-item"><em class = "fa fa-arrow-circle-right"></em>&nbsp;CSS</li>
+                <h5>Skills</h5>
 
-              </ul>
-              
+                <hr>
+
+                <ul>
+
+                  <li class = ""><em class = "fa fa-arrow-circle-right"></em>&nbsp;C</li>
+
+                  <li class = ""><em class = "fa fa-arrow-circle-right"></em>&nbsp;HTML 5</li>
+
+                  <li class = "last-item"><em class = "fa fa-arrow-circle-right"></em>&nbsp;CSS</li>
+
+                </ul>
+
+                </div>
+                
+              </div>
+
             </div>
 
           </div>
 
-        </div>
+          
+
+        
+
+        <div class="project-back">
 
         <div class = "row">
 
          <div class = "col-md-5"></div>
 
-         <div class = "col-md-2 custom-col">
+         <div class = "col-md-2 custom-col project">
            
           <h2 class = "text-center">Projects</h2>
 
-          <hr>
+          <hr id = "project-hr">
 
          </div>
 
@@ -353,7 +486,7 @@
 
           <div class = "col-md-1"></div>
 
-          <div class = "col-md-10 custom-col">
+          <div class = "col-md-10 custom-nav">
 
             <nav class="nav nav-tabs" id="myTab" role="tablist">
 
@@ -367,7 +500,7 @@
 
               <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
-                <ul id = "table">
+                <ul class = "rounded" id = "table">
 
                   <li><a href = "https://pragmaticworks.com/Training/On-Demand-Training/Big-Data-for-Beginners-ODT"><em class = "fa fa-caret-right"></em>&nbsp;Software Training Page&nbsp;</a><em class = "fa fa-link"></em></li>
 
@@ -381,7 +514,7 @@
 
               <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
-                <ul id = "table">
+                <ul class = "rounded" id = "table">
 
                   <li><a href = "https://github.com/kerrta/kindred-spirits"><em class = "fa fa-caret-right"></em>&nbsp;Kindred Spirits&nbsp;</a><em class = "fa fa-link"></em></li>
 
@@ -428,6 +561,8 @@
           </div>
 
         </div> -->
+
+      </div>
 
       </div>
 
